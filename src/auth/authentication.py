@@ -13,10 +13,10 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Load environment variables
-load_dotenv()
+#load_dotenv()
 
 # Database setup with PostgreSQL
-DATABASE_URL = os.getenv('DATABASE_URL')
+DATABASE_URL ="postgresql://postgres:zFlVCAwiPhjleNqAlIkQlhcXUgoztkyU@metro.proxy.rlwy.net:15223/railway"      # os.getenv('DATABASE_URL')
 if not DATABASE_URL:
     raise ValueError("DATABASE_URL not found in environment variables")
 
