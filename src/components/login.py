@@ -139,16 +139,16 @@ def login_page():
             </style>
         """, unsafe_allow_html=True)
 
-        # Logo container
-        col1, col2, col3 = st.columns([1, 2, 1])
-        with col2:
-            st.markdown('<div class="logo-container">', unsafe_allow_html=True)
-            logo_path = "src/assets/One_80_lightLogo.jpg"
-            st.image(logo_path, width=500)
-            st.markdown('</div>', unsafe_allow_html=True)
+        # # Logo container
+        # col1, col2, col3 = st.columns([1, 2, 1])
+        # with col2:
+        #     st.markdown('<div class="logo-container">', unsafe_allow_html=True)
+        #     logo_path = "src/assets/One_80_lightLogo.jpg"
+        #     st.image(logo_path, width=500)
+        #     st.markdown('</div>', unsafe_allow_html=True)
 
-        # Login container
-        st.markdown('<div class="login-container">', unsafe_allow_html=True)
+        # # Login container
+        # st.markdown('<div class="login-container">', unsafe_allow_html=True)
         
         # Login/Register tabs
         tab1, tab2 = st.tabs(["Login", "Register"])
